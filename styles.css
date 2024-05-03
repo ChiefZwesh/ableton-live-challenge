@@ -1,0 +1,62 @@
+@import url('css/supreme.css');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+}
+
+img{
+    width: 12
+    12px;
+    height: 12px;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+}
+
+nav {
+    font-family: Supreme-Regular;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 34px;
+    height: 34px;
+    margin-right: 10px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center; /* Align items vertically */
+}
+
+.left-side-nav,
+.right-side-nav {
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.left-side-nav li,
+.right-side-nav li {
+    margin-right: 20px;
+    height: 100%; /* Set the height of list items to match */
+    display: flex;
+    align-items: center; /* Align content vertically */
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
